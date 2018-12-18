@@ -15,6 +15,8 @@
 		3F435BEE21B90B3600238D5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F435BEC21B90B3600238D5C /* LaunchScreen.storyboard */; };
 		3F435BF921B90B3600238D5C /* caoqinyu_12Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F435BF821B90B3600238D5C /* caoqinyu_12Tests.swift */; };
 		3F435C0421B90B3600238D5C /* caoqinyu_12UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F435C0321B90B3600238D5C /* caoqinyu_12UITests.swift */; };
+		3F435C1221B90BBB00238D5C /* InsertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F435C1121B90BBB00238D5C /* InsertViewController.swift */; };
+		3F435C1421B90BC800238D5C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F435C1321B90BC800238D5C /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3F435BFF21B90B3600238D5C /* caoqinyu_12UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = caoqinyu_12UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F435C0321B90B3600238D5C /* caoqinyu_12UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caoqinyu_12UITests.swift; sourceTree = "<group>"; };
 		3F435C0521B90B3600238D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F435C1121B90BBB00238D5C /* InsertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertViewController.swift; sourceTree = "<group>"; };
+		3F435C1321B90BC800238D5C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				3F435BEC21B90B3600238D5C /* LaunchScreen.storyboard */,
 				3F435BEF21B90B3600238D5C /* Info.plist */,
 				3F435BE721B90B3600238D5C /* caoqinyu_12.xcdatamodeld */,
+				3F435C1121B90BBB00238D5C /* InsertViewController.swift */,
+				3F435C1321B90BC800238D5C /* SearchViewController.swift */,
 			);
 			path = caoqinyu_12;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F435C1421B90BC800238D5C /* SearchViewController.swift in Sources */,
 				3F435BE921B90B3600238D5C /* caoqinyu_12.xcdatamodeld in Sources */,
+				3F435C1221B90BBB00238D5C /* InsertViewController.swift in Sources */,
 				3F435BE321B90B3600238D5C /* ViewController.swift in Sources */,
 				3F435BE121B90B3600238D5C /* AppDelegate.swift in Sources */,
 			);
